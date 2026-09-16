@@ -38,6 +38,9 @@ models:
         data_tests:
           - positive_values
 
+      - name: price_str
+        description: Raw listing price as a string as provided by the source (e.g. "$50.00"). See `price` for the cleansed numeric value.
+
   - name: dim_hosts_cleansed
     versions:
       - v: 1
